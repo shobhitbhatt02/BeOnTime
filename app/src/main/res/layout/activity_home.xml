@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bkd"
     tools:context=".Home">
 
-    <TextView
+    <Button
+        android:id="@+id/btn_setslot"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="logged in"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="297dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="50dp"
-        tools:ignore="MissingConstraints" />
+        android:text="setslot"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_rounded"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_bookslot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_setslot"
+        android:layout_marginBottom="-83dp"
+        android:background="@drawable/button_rounded"
+        android:text="bookslot"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+</RelativeLayout>

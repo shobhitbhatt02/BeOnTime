@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setslots">
+
+    <TextView
+        android:id="@+id/dateTexView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:hint="Date"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_pickdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PickDate"
+        android:layout_below="@+id/dateTexView"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:onClick="btn_datepicker"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_rounded"/>
+
+    <TextView
+        android:id="@+id/BeginTimeTexView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_pickdate"
+        android:layout_marginTop="143dp"
+        android:gravity="center"
+        android:hint="BeginTime"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_pickbegintime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateTexView"
+        android:layout_marginTop="147dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="btn_begintimepicker"
+        android:text="Pickbegintime"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/EndTimeTexView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_pickendtime"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:hint="End time"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_pickendtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateTexView"
+        android:layout_marginTop="331dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="btn_endtimepicker"
+        android:text="PickEndTime"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateTexView"
+        android:layout_marginTop="544dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="btn_save"
+        android:text="save"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+</RelativeLayout>
