@@ -22,6 +22,11 @@ Button btn_bookslot;
                 startActivity(new Intent(getApplicationContext(),setslots.class));
             }
         });
-
+        btn_bookslot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),AvailableSlotList.class));
+            }
+        });
     }
 }

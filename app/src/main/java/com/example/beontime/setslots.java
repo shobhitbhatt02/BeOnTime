@@ -93,7 +93,7 @@ public class setslots extends AppCompatActivity {
             }
 
         });
-        Toast.makeText(setslots.this, "Registration Completed", Toast.LENGTH_SHORT).show();
+        Toast.makeText(setslots.this, "Slot Booked", Toast.LENGTH_SHORT).show();
         startActivity(new Intent(getApplicationContext(),Home.class));
 
     }
