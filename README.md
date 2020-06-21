@@ -10,3 +10,19 @@ Demo:
 
 User Authentication:
 
+<img src="images/login page.jpg" width="150" height="250">  <img src="images/signup.jpg" width="150" height="250">  
+### User Data Stored In Cloud Firestore
+<img src="images/user" width="700" height="250">
+
+
+### Adding Slots
+<img src="images/slot booked.jpg" width="150" height="250">  <img src="images/date.jpg" width="150" height="250">
+<img src="images/time.jpg" width="150" height="250"> 
+
+### Slot Information Stored in Firebase RealTime Database
+<img src="images/time base" width="600" height="250">
+
+### View Slot details and Perform Delete Operation
+<img src="images/slot booked(2).jpg" width="150" height="250">  
+
+
