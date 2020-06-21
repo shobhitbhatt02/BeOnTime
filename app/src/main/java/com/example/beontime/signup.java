@@ -102,7 +102,7 @@ public class signup extends AppCompatActivity {
                                             gender
                                     );
 
-                                    FirebaseDatabase.getInstance().getReference("users")
+                                    FirebaseDatabase.getInstance().getReference("Users")
                                             .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                             .setValue(information).addOnCompleteListener(new OnCompleteListener<Void>() {
                                         @Override
