@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1028338876103",
+    "firebase_url": "https://beontime-1ada7.firebaseio.com",
+    "project_id": "beontime-1ada7",
+    "storage_bucket": "beontime-1ada7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028338876103:android:19487b09f944f6b1bd08e2",
+        "android_client_info": {
+          "package_name": "com.example.beontime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028338876103-g0c2in0tif0gt193bsbepln3uov5rsfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beontime",
+            "certificate_hash": "43d54aa02d74617da7017dcd828a487bde839521"
+          }
+        },
+        {
+          "client_id": "1028338876103-pnko1a2ihlbqhmgvsr2k9b1uqms7f0rm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpqRdAtrB8c32V8ftepdiSfTh9HVbVa5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028338876103-pnko1a2ihlbqhmgvsr2k9b1uqms7f0rm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
